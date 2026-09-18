@@ -585,27 +585,4 @@
     function filterServices(category) {
 
       const cards =
-        document.querySelectorAll(".service-card");
-
-      cards.forEach(function(card) {
-
-        if (card.dataset.service === category) {
-          card.style.display = "block";
-        } else {
-          card.style.display = "none";
-        }
-
-      });
-
-      document
-        .getElementById("services")
-        .scrollIntoView({
-          behavior: "smooth"
-        });
-
-    }
-
-  </script>
-
-</body>
-</html>
+        document.querySelector
